@@ -11,8 +11,8 @@ angular.module('know', [])
                 $scope.y=t.data.itemListElement[0].result.detailedDescription.url;
                 $scope.a=true;
 
-            }).catch(function (err) {
+            })/*.catch(function (err) {
                 console.log(err.message);
-            })
+            })*/
         }
     })
