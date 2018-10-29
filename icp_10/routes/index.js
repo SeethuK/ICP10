@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-
+var cors = require('cors');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var searchtext = req.query.searchtext;
